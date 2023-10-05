@@ -65,31 +65,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-
-    <body>
         <!-- Header (Logo and Navigation bar) -->
         <header>
             <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <a class="navbar-brand" href="#">
                     <img src="./imgs/logo.png" alt="Russel Street Medical Logo" width="170">
                 </a>
-                <a class="navbar-brand" href="index.html">Russel Street Medical</a>
+                <a class="navbar-brand" href="index.php">Russel Street Medical</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#aboutUs">About Us</a>
+                            <a class="nav-link" href="index.php#aboutUs">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#whoWeAre">Who We Are</a>
+                            <a class="nav-link" href="index.php#whoWeAre">Who We Are</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html#serviceArea">Service Area</a>
+                            <a class="nav-link" href="index.php#serviceArea">Service Area</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="booking.php">Book Online</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="administration.php">Login/Register</a>
                         </li>
                     </ul>
                 </div>

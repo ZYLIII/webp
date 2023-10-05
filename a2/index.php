@@ -14,7 +14,7 @@
     <title>Russel Street Medical</title>
 </head>
 
-<body>
+
 <body>
     <!-- Header (Logo and Navigation bar) -->
     <header>
@@ -22,23 +22,26 @@
             <a class="navbar-brand" href="#">
                 <img src="./imgs/logo.png" alt="Russel Street Medical Logo" width="170">
             </a>
-            <a class="navbar-brand" href="index.html">Russel Street Medical</a>
+            <a class="navbar-brand" href="index.php">Russel Street Medical</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#aboutUs">About Us</a>
+                        <a class="nav-link" href="index.php#aboutUs">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#whoWeAre">Who We Are</a>
+                        <a class="nav-link" href="index.php#whoWeAre">Who We Are</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#serviceArea">Service Area</a>
+                        <a class="nav-link" href="index.php#serviceArea">Service Area</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="booking.php">Book Online</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="administration.php">Login/Register</a>
                     </li>
                 </ul>
             </div>
@@ -183,11 +186,11 @@
             <div class="footer-navigation">
                 <img class="footer-logo" src="./imgs/logo.png" alt="Russel Street Medical Logo" />
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.php">Home</a></li>
                     <li><a href="#aboutUs">About Us</a></li>
                     <li><a href="#whoWeAre">Who We Are</a></li>
                     <li><a href="#serviceArea">Service Area</a></li>
-                    <li><a href="booking.html">Book Online</a></li>
+                    <li><a href="booking.php">Book Online</a></li>
                 </ul>
             </div>
         </div>

@@ -1,12 +1,9 @@
 body {
-  background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 170, 255, 0.164));
-}
-body {
     padding-top: 80px; 
-    background: linear-gradient(rgba(255, 255, 255, 1), rgba(0, 170, 255, 0.164));
+    background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.164));
 }
 
-/* Customizing Bootstrap Navbar */
+
 .navbar {
     background-color: rgb(245, 244, 244); 
     height: 80px; 
@@ -610,4 +607,29 @@ input[type="submit"]:hover {
     color: red;
     font-size: small;
     display: block;
+}
+
+.welcome-message {
+    font-size: 240px; /* or whatever size you prefer */
+    color: #333; /* or any color you prefer */
+}
+
+.logout-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid #4CAF50;
 }
